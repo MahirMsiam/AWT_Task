@@ -6,7 +6,7 @@ NestJS + TypeORM + PostgreSQL CRUD API for a small shop: manages **products** an
 
 | SL | Name | ID | Section |
 |----|------|----|---------|
-| _your SL_ | _Your Name_ | _XX-XXXXX-X_ | _X_ |
+| _19_ | _Mahir Mahmud Siam_ | _23-50773-1_ | _B_ |
 
 ## Tech used
 
