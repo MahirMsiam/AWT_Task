@@ -141,17 +141,7 @@ Example `POST /employees` body:
 | 404    | No product / employee with that ID                           |
 | 409    | Employee email already exists                                |
 
-## Improvements over the class demo
 
-- Added the full **Employee** module (the demo only had products).
-- One global `ValidationPipe` (`whitelist`, `forbidNonWhitelisted`, `transform`) instead of a pipe on every route; unknown fields are rejected.
-- Update DTOs use `PartialType(CreateDto)`, so create and update rules never drift apart.
-- Service methods reuse `getXById` for the "not found" check instead of repeating it.
-- Error messages include the missing ID; duplicate emails return `409` instead of a `500`.
-- Employee passwords are hashed with argon2 and hidden from every response.
-- `createdAt` / `updatedAt` timestamps; `GET` all returns rows in creation order.
-- Database `CHECK` constraints back up the DTO rules (no negative price/quantity, valid age).
-- No `uuid-ossp` extension setup needed (`gen_random_uuid()`).
 
 ## Screenshots
 
