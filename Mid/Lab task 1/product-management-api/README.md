@@ -145,4 +145,32 @@ Example `POST /employees` body:
 
 ## Screenshots
 
-Postman screenshots are in `screenshots/` (`01-create.png` … `07-confirm-delete.png`).
+Postman screenshots of every product operation (files in `screenshots/`).
+
+### 1. Create a product (POST /products)
+
+![1. Create a product (POST /products)](screenshots/01-create.png)
+
+### 2. Get all products (GET /products)
+
+![2. Get all products (GET /products)](screenshots/02-get-all.png)
+
+### 3. Get product by ID (GET /products/:id)
+
+![3. Get product by ID (GET /products/:id)](screenshots/03-get-by-id.png)
+
+### 4. Update a product (PATCH /products/:id)
+
+![4. Update a product (PATCH /products/:id)](screenshots/04-update.png)
+
+### 5. Confirm the update (GET /products/:id)
+
+![5. Confirm the update (GET /products/:id)](screenshots/05-confirm-update.png)
+
+### 6. Delete a product (DELETE /products/:id)
+
+![6. Delete a product (DELETE /products/:id)](screenshots/06-delete.png)
+
+### 7. Confirm the delete (GET /products)
+
+![7. Confirm the delete (GET /products)](screenshots/07-confirm-delete.png)
